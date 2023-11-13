@@ -27,6 +27,13 @@
       "email": "raja@gmail.com",
       "password": "pass",
       "id": 4
+    },
+    {
+      "firstName": "Sourav",
+      "lastName": "Paul",
+      "email": "souravpaul.strength@gmail.com",
+      "password": "abcd1234",
+      "id": 5
     }
   ]
 }

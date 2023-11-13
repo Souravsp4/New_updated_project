@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "https://vm5cpy-4000.csb.app/"
+const baseUrl = "http://localhost:4000/"
 
 export const saveUser = async (fName, lName, email, password) => {
     //const config = { headers: {"Content-Type": "application/json"}}
