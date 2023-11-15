@@ -4,6 +4,7 @@ import {Link, useNavigate} from "react-router-dom";
 import {HashLink} from "react-router-hash-link"
 import { checkIfUserValid } from '../utils/users';
 
+
 const Header = () => {
   const [loggedIn, setLoggedIn] = useState(false)
   const [user, setUser] = useState("")
@@ -46,6 +47,7 @@ const Header = () => {
     <HashLink to={"/#home"}>Home</HashLink>
    < HashLink to={"/#about"}>About</HashLink>
     <Link to={"/contact"}>Contact</Link>
+    <Link to="/product">Products</Link>
     <HashLink to="/#feedbacks">Feedbacks</HashLink>
     {loggedIn?(<Link>welcome {user}</Link>):(<Link to="/login">Log in</Link>)}
     {loggedIn?(<Link onClick={handleClick}>Log out</Link>):(<p></p>)}
