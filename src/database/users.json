@@ -34,6 +34,25 @@
       "email": "souravpaul.strength@gmail.com",
       "password": "abcd1234",
       "id": 5
+    },
+    {
+      "firstName": "rohit",
+      "lastName": "kumar",
+      "email": "rohit@gmail.com",
+      "password": "hello",
+      "id": 6
+    },
+    {
+      "cartItemsId": [
+        "cd6cc525-f54e-4daf-a9a7-2ea00f897836",
+        "abda456e-2ed7-40ea-99e1-4b9192b16500",
+        "abda456e-2ed7-40ea-99e1-4b9192b16500"
+      ],
+      "id": 7,
+      "firstName": "neha",
+      "lastName": "chauhan",
+      "email": "neha@gmail.com",
+      "password": "neha"
     }
   ]
 }

@@ -41,18 +41,11 @@ const Home = () => {
         <div>
           <h1>About Us</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum qui
-            iure dolor omnis maxime obcaecati modi consequatur ut reprehenderit
-            aliquam fugiat, recusandae voluptates architecto ad? Sint reiciendis
-            accusamus inventore, dicta id necessitatibus ratione, dolores
-            quibusdam architecto ex nostrum! Hic vero voluptates laborum. Dolore
-            officiis soluta laborum error a asperiores exercitationem fugit
-            debitis at placeat corporis ex, eligendi mollitia quo, eveniet
-            nesciunt perspiciatis earum quod repudiandae nulla, quisquam aut
-            natus? Atque assumenda quis omnis nostrum, consectetur officiis
-            magni amet temporibus voluptates sit voluptate accusantium numquam,
-            nihil laudantium. Excepturi dicta odit aut praesentium, non porro
-            provident officiis iste minima quis nemo asperiores?
+          Welcome to Build Yourself , your premier destination for cutting-edge PC solutions. 
+          At Build Yourself, we blend innovation with customer-centric service, offering a curated selection of top-tier products to meet your computing needs.
+           Our team of experts is dedicated to guiding you through the ever-evolving world of technology, ensuring that you make informed decisions. 
+           With a commitment to quality, sustainability, and seamless customer experiences, [Your Company Name] is not just a retailer; we are your partners in the digital age. 
+           Join us and discover a new era of computing excellence.
           </p>
         </div>
       </div>

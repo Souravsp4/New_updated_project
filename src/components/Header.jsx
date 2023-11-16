@@ -40,13 +40,15 @@ const Header = () => {
   }, [loggedIn, user])
   return (
    <nav>
-    <h1>Name</h1>
+    <h1>Build Yourself</h1>
     <main>
 
     <HashLink to={"/#home"}>Home</HashLink>
    < HashLink to={"/#about"}>About</HashLink>
     <Link to={"/contact"}>Contact</Link>
+    <Link to={"/products"}>Products</Link>
     <HashLink to="/#feedbacks">Feedbacks</HashLink>
+    {loggedIn?(<Link to="/cart">Cart</Link>):(<p></p>)}
     {loggedIn?(<Link>welcome {user}</Link>):(<Link to="/login">Log in</Link>)}
     {loggedIn?(<Link onClick={handleClick}>Log out</Link>):(<p></p>)}
 
